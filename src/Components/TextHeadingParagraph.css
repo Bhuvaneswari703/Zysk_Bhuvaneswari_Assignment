@@ -1,0 +1,26 @@
+/* Container to hold the heading and paragraph */
+.text-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the heading */
+  .heading {
+    font-size: 19px;
+    color: #ec3e3e;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+   
+  }
+  
+  /* Styling for the paragraph */
+  .paragraph {
+    font-size: 22px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  

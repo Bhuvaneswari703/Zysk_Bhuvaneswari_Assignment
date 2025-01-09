@@ -1,0 +1,21 @@
+/* Container for the whole row */
+.container {
+  width: 90%; /* Container width, adjust as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Optional: Adds padding around the container */
+}
+
+/* Flexbox for the image row */
+.image-row {
+  display: flex;  /* Use Flexbox to align the images in a row */
+  justify-content: space-between;  /* Distribute space between images */
+  /* flex-wrap: wrap;  Allows the images to wrap if the screen is small */
+  gap: 10px;  /* Optional: Adds space between images */
+}
+
+/* Style for each image */
+.image {
+  width: 15%;  /* Make each image take up 15% of the row width (6 images fit) */
+  height: auto;  /* Maintain the aspect ratio */
+  object-fit: cover;  /* Ensures the images cover the space */
+}

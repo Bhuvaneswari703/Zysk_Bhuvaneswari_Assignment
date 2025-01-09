@@ -1,0 +1,105 @@
+/* Section Container */
+.text-button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .content {
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .section-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .section-text {
+    font-size: 17px;
+    margin-bottom: 30px;
+    color: #666;
+    line-height: 26px;
+    
+  }
+  
+  .text-button {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .btn-1{
+    border-radius: 50px;
+    padding: 13px;
+    border: 2px solid pink;
+  }
+  .btn-2{
+    border-radius: 25px;
+    border: 1px solid pink;
+    padding: 5px;
+    color:  #e9430c;
+    font-size: 16px;
+}
+.sp{
+  color: #e9430c;
+  font-size: 16px;
+  margin-left: 33px;
+}
+  .twobut{
+
+  }
+  .btn-3{
+    border-radius: 25px;
+    padding: 9px;
+    border: 1px solid gray;
+    width: 75px;
+  }
+  .btn-4{
+    border-radius: 25px;
+    padding: 9px;
+    background-color: #ef4d4d;
+    color: #fff;
+    border: none;
+  
+    width: 75px;
+    margin-left: 19px;
+  }
+  /* Hover effect */
+  .text-row-section {
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the left */
+    align-items: center;
+    padding: 20px;
+  }
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .text-button-section {
+      padding: 30px 15px;
+    }
+  
+    .section-heading {
+      font-size: 2rem;
+    }
+  
+    .section-text {
+      font-size: 0.9rem;
+    }
+  
+    .text-button {
+      font-size: 1rem;
+      padding: 8px 16px;
+    }
+  }
+  
